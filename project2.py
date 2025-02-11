@@ -1,7 +1,6 @@
 #📅 Day 2: Python Data Structures (Lists, #Tuples, Sets, and Dictionaries)
 
 #🔹 Topics for Today
-#Today, we’ll dive into Python’s data #structures—fundamental for handling data in #Machine Learning & AI.
 
 #✅ Lists (Dynamic arrays)
 #✅ Tuples (Immutable sequences)
