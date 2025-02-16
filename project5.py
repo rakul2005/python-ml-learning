@@ -73,8 +73,6 @@ finally:
     print("file closing...")
 
 # 3️. Bank Withdrawal System 🏦
-# Create a program where a user enters an amount to withdraw.
-# If they try to withdraw more than their balance, raise an exception.
 
 try:
     total = float(int(input("Enter your total account balance: ")))
@@ -92,3 +90,20 @@ except ValueError as e:
 
 finally:
     print("Transaction complete")
+
+# 4️. Custom Age Validator 
+
+age = int(input("Enter your age: "))
+
+if age < 0 or age > 150:
+    raise ValueError("Enter a valid age!")
+
+
+
+
+
+
+
+
+
+
